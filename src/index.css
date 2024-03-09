@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: radial-gradient(
+    circle at 20% 11%,
+    rgba(251, 146, 60, 1) 0%,
+    rgba(255, 191, 96, 1) 50%,
+    rgba(211, 108, 33, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.background {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url("./assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.active {
+  color: #fb923c;
+}
+
+.gradient {
+  background: radial-gradient(
+    circle at 100% 70%,
+    rgba(91, 52, 28, 1) 37%,
+    rgba(106, 48, 7, 1) 54%
+  );
+}
+
+.images__bg {
+  background: radial-gradient(
+    ellipse at 53% 68%,
+    rgba(225, 171, 114, 1) 0%,
+    rgba(246, 246, 246, 1) 55%
+  );
+}
