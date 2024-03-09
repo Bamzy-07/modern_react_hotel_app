@@ -14,39 +14,39 @@ const Images = () => {
       Ignite your love story in our intimate spaces designed for romance.</p>
       <div className='flex items-center py-8 justify-center gap-4 '>
 
-          <div className='relative hidden mg:block w-[100px] h-[300px] hover:w-[600px] md:hover:w-[500px] hover:h-[300px] transition ease-in-out duration-500'>
+          <div className='relative hidden md:block w-[50px] md:w-[100px] h-[300px] hover:w-[600px] md:hover:w-[500px] hover:h-[300px] transition ease-in-out duration-500'>
             <img src={spa01} alt='spa' className='w-full h-full object-cover rounded-[25px]' />
           </div>
 
-          <div className='relative hidden mg:block w-[100px] h-[400px] hover:w-[600px] md:hover:w-[500px] hover:h-[400px] transition ease-in-out duration-500'>
+          <div className='relative hidden md:block w-[50px] md:w-[100px] h-[400px] hover:w-[600px] md:hover:w-[500px] hover:h-[400px] transition ease-in-out duration-500'>
             <img src={gym01} alt='spa' className='w-full h-full object-cover rounded-[25px]' />
           </div>
 
-          <div className='relative w-[100px] h-[500px] hover:w-[600px] md:hover:w-[500px] hover:h-[350px] md:hover:h-[500px] transition ease-in-out duration-500'>
+          <div className='relative w-[50px] md:w-[100px] h-[300px] md:h-[500px] hover:w-[600px] md:hover:w-[500px] hover:h-[350px] md:hover:h-[500px] transition ease-in-out duration-500'>
             <img src={lounge01} alt='spa' className='w-full h-full object-cover rounded-[25px]' />
           </div>
 
-          <div className='relative w-[100px] h-[600px] hover:w-[600px] md:hover:w-[500px] hover:h-[350px] md:hover:h-[600px] transition ease-in-out duration-500'>
+          <div className='relative w-[50px] md:w-[100px] h-[400px] md:h-[600px] hover:w-[600px] md:hover:w-[500px] hover:h-[350px] md:hover:h-[600px] transition ease-in-out duration-500'>
             <img src={pool04} alt='spa' className='w-full h-full object-cover rounded-[25px]' />
           </div>
 
-          <div className='relative w-[100px] h-[700px] hover:w-[600px] md:hover:w-[500px] hover:h-[350px] md:hover:h-[700px] transition ease-in-out duration-500'>
+          <div className='relative w-[50px] md:w-[100px] h-[500px] md:h-[700px] hover:w-[600px] md:hover:w-[500px] hover:h-[350px] md:hover:h-[700px] transition ease-in-out duration-500'>
             <img src={res02} alt='spa' className='w-full h-full object-cover rounded-[25px]' />
           </div>
 
-          <div className='relative w-[100px] h-[600px] hover:w-[600px] md:hover:w-[500px] hover:h-[350px] md:hover:h-[600px] transition ease-in-out duration-500'>
+          <div className='relative w-[50px] md:w-[100px] h-[400px] md:h-[600px] hover:w-[600px] md:hover:w-[500px] hover:h-[350px] md:hover:h-[600px] transition ease-in-out duration-500'>
             <img src={gym02} alt='spa' className='w-full h-full object-cover rounded-[25px]' /> 
           </div>
 
-          <div className='relative w-[100px] h-[500px] hover:w-[600px] md:hover:w-[500px] hover:h-[350px] md:h[500px] transition ease-in-out duration-500'>
+          <div className='relative w-[50px] md:w-[100px] h-[300px] md:h-[500px] hover:w-[600px] md:hover:w-[500px] hover:h-[350px] md:h[500px] transition ease-in-out duration-500'>
             <img src={pool03} alt='spa' className='w-full h-full object-cover rounded-[25px]' />
           </div>
 
-          <div className='relative hidden mg:block w-[100px] h-[400px] hover:w-[600px] md:hover:w-[500px] hover:h-[400px] transition ease-in-out duration-500'>
+          <div className='relative hidden md:block w-[50px] md:w-[100px] h-[400px] hover:w-[600px] md:hover:w-[500px] hover:h-[400px] transition ease-in-out duration-500'>
             <img src={spa05} alt='spa' className='w-full h-full object-cover rounded-[25px]' /> 
           </div>
 
-          <div className='relative hidden mg:block w-[100px] h-[300px] hover:w-[600px] md:hover:w-[500px] hover:h-[300px] transition ease-in-out duration-500'>
+          <div className='relative hidden md:block w-[50px] md:w-[100px] h-[300px] hover:w-[600px] md:hover:w-[500px] hover:h-[300px] transition ease-in-out duration-500'>
             <img src={lounge04} alt='spa' className='w-full h-full object-cover rounded-[25px]' />
           </div>
       </div>
